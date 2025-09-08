@@ -1,0 +1,36 @@
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #ff8a65;
+  color: white;
+  font-size: 1.1em;
+  text-decoration: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+/* Анімація при наведенні */
+.btn:hover {
+  background: #ff7043;   /* змінює колір */
+  transform: translateY(-5px) scale(1.05); /* легкий стрибок */
+  box-shadow: 0 8px 12px rgba(0,0,0,0.25);
+}
+
+/* Анімація при натисканні */
+.btn:active {
+  transform: translateY(0) scale(0.95);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+
+
+body {
+  background-color: #fff7f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #ff8a65;
+}
